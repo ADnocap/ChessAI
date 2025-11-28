@@ -10,7 +10,7 @@ import torch.nn.functional as F
 import chess
 from tqdm import trange
 
-from chess_ai.mcts import MCTS, MCTSParallel
+from mcts import MCTS, MCTSParallel
 
 
 class SPG:
