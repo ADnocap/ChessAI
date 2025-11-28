@@ -9,7 +9,9 @@ itself and improving based on the outcomes.
 import torch
 import os
 
-from chess_ai import ChessInterface, ResNet, AlphaZeroParallel
+from chess_ai.alphazero AlphaZeroParallel
+from chess_ai.game import ChessInterface
+from chess_ai.model import ResNet
 
 
 def main():
